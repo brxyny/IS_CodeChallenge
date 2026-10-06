@@ -1,0 +1,12 @@
+services:
+  node-api:
+    ports: !reset []
+    restart: unless-stopped
+    mem_limit: 192m
+  go-api:
+    ports: !reset []
+    restart: unless-stopped
+    mem_limit: 384m
+  frontend:
+    restart: unless-stopped
+    mem_limit: 96m

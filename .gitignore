@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+work/
+.secrets/
+node_modules/
+dist/
+bin/
+go-api/server
+coverage/
+*.exe
+*.log
+coverage.out
+VALIDATION.md
